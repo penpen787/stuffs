@@ -1,0 +1,10 @@
+#chartOuterDiv {
+    background-color: ghostwhite;
+    /*width: 640px;*/
+    width: 100%;
+    min-height: 100px;
+}
+
+#chartDiv {
+    min-height: 100px;
+}

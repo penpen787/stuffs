@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chart inject pop-up",
+  "description": "Chart inject example",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "s_icon.png"
+  },
+
+  "content_scripts": [{
+    "run_at" :"document_end",
+    "matches": ["https://www.youtube.com/watch*"],
+    "css": ["style.css"],
+    "js": ["jquery-3.2.0.js", "Chart.min.js", "script.js"]
+  }],
+
+  "web_accessible_resources":["*.png"]
+}
