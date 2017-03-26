@@ -12,9 +12,7 @@ $(document).ready(function() {   // Load the function after DOM ready.
         console.log('click')
         var tmp = window.myLine.getElementsAtEvent(e);
         console.log(tmp)
-
     };
-
 });
 
 var config = {
