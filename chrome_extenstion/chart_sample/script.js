@@ -10,8 +10,6 @@ $(document).ready(function() {   // Load the function after DOM ready.
     console.log('click1')
     canvas.onclick = function(e) {
         console.log('click')
-        var tmp = window.myLine.getElementsAtEvent(e);
-        console.log(tmp)
     };
 });
 
